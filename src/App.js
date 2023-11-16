@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Homecomponent from "./modules/home/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-full min-h-screen py-10 bg-gray-700 text-center">
+      <div className="relative">
+        <h1 className="font-bold text-white text-2xl mx-auto pt-5 md:pt-10">EXPENSE TRACKER</h1>
+        <Homecomponent />
+      </div>
     </div>
   );
 }
