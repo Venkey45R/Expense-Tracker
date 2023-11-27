@@ -1,5 +1,5 @@
-import Overviewcomponent from "./Overview"
-import Transactioncomponent from "./Transaction"
+import Overviewcomponent from "./home/Overview"
+import Transactioncomponent from "./home/Transaction"
 import { useEffect, useState } from "react"
 
 const Homecomponent = (props) =>{
